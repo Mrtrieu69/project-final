@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grocer Mart</title>
+
+        <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
@@ -10,18 +13,33 @@
         <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Grocer Mart</title>
-        <style>
-            body {
-                font-family: Gordita, sans-serif;
-            }
-        </style>
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+
+        <!-- Scripts -->
+        <script src="./assets/js/script.js"></script>
     </head>
     <body>
+        <!-- Header -->
+        <header id="header"></header>
+        <script>
+            load("#header", "./template/header.html");
+        </script>
+
         <h1>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat officiis
             quibusdam minus officia earum deleniti asperiores recusandae eligendi qui. Suscipit
             voluptatum laborum ipsa autem quibusdam expedita eius perspiciatis explicabo.
         </h1>
+
+        <!-- Footer -->
+        <footer id="footer"></footer>
+        <script>
+            load("#footer", "./template/footer.html");
+        </script>
     </body>
 </html>
